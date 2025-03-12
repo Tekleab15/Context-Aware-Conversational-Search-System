@@ -1,5 +1,7 @@
-streamlit
 pandas
-numpy
+gradio
 sentence-transformers
-scikit-learn
+requests
+urllib3
+torch
+numpy
