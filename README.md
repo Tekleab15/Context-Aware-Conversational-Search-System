@@ -7,18 +7,25 @@ A lightweight conversational search engine that maintains context and leverages 
 - **Context-Aware Search:** Retains conversation context for improved query handling.
 - **Intent Recognition:** Uses SBERT embeddings to classify query intents.
 - **Knowledge Graph Enrichment:** Retrieves additional info via DBpedia Spotlight.
-- **Recommendation System:** Suggests related responses using SBERT-based similarity.
+- **Recommendation System:** Suggests related responses using SBERT-based cosine similarity.
 
 ## Technologies
 
 - Python 3.x  
-- SBERT (all-MiniLM-L6-v2)  
+- SBERT (all-mpnet-base-v2)  
 - Gradio  
-- Pandas, Requests, PyTorch
+- Pandas, Requests, tensorflow, torch
 
 ## Directory Structure
 
-Context-Aware-Conversational-Search-System/ ├── data/ # Customer support dataset files ├── docs/ # Documentation ├── models/ # Saved models (if any) ├── notebooks/ # Jupyter notebooks for experiments ├── tests/ # Unit tests ├── requirements.txt # Dependencies list └── README.md
+Context-Aware-Conversational-Search-System/ 
+   ├── data/ # Customer support dataset files 
+   ├── docs/ # Documentation 
+   ├── models/ # Saved models  
+   ├── notebooks/ # Jupyter notebooks for experiments ├
+   ├── requirements.txt 
+   └── README.md
+
 
 
 ## Installation & Usage
