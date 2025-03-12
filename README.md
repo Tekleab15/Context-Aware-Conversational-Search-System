@@ -1,2 +1,32 @@
-# Context-Aware-Conversational-Search-System
-A conversational search engine that maintains context across multiple queries. This project leverages SBERT embeddings for semantic search and session-based memory for better query understanding. The implementation is done using Google Colab, making it easy to run experiments and train models in the cloud.
+# Context-Aware Conversational Search System
+
+A lightweight conversational search engine that maintains context and leverages SBERT embeddings for semantic search. This system is primarily trained on a customer support dataset, enabling it to understand and handle support-related queries.
+
+## Features
+
+- **Context-Aware Search:** Retains conversation context for improved query handling.
+- **Intent Recognition:** Uses SBERT embeddings to classify query intents.
+- **Knowledge Graph Enrichment:** Retrieves additional info via DBpedia Spotlight.
+- **Recommendation System:** Suggests related responses using SBERT-based similarity.
+
+## Technologies
+
+- Python 3.x  
+- SBERT (all-MiniLM-L6-v2)  
+- Gradio  
+- Pandas, Requests, PyTorch
+
+## Directory Structure
+
+Context-Aware-Conversational-Search-System/ ├── data/ # Customer support dataset files ├── docs/ # Documentation ├── models/ # Saved models (if any) ├── notebooks/ # Jupyter notebooks for experiments ├── tests/ # Unit tests ├── requirements.txt # Dependencies list └── README.md
+
+
+## Installation & Usage
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Tekleab15/Context-Aware-Conversational-Search-System.git
+   cd Context-Aware-Conversational-Search-System
+
+2. pip install -r requirements.txt
